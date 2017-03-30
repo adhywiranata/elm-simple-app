@@ -7,8 +7,7 @@ main =
     Html.program
         { init = init
         , update = update
-        , subscriptions = \_ -> Sub.none
-        -- ^ javascript counterpart for subs = () => { }
+        , subscriptions = \_ -> Sub.none -- javascript counterpart for subs = () => { }
         , view = view
         }
 
